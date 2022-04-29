@@ -1,0 +1,125 @@
+.Header{
+    color: #fff;
+    overflow: hidden;
+}
+.navbar {
+    background-color: #111;
+}
+.navbar img{
+    width: 200px;
+}
+.filmHome{
+    min-height: 100vh;
+    height: max-content;
+    width: 100%;
+
+    
+
+}
+
+.filtro-vertical{
+    min-height: 100vh;
+    height: max-content;
+    width: 100%;
+    background: linear-gradient(to top, #111 10%, transparent 90%);
+}
+
+.filtro-horizontal {
+    min-height: 100vh;
+    height: max-content;
+    width: 100%;
+    background: linear-gradient(to right, #111 30%, transparent 70%);
+}
+
+
+.info{
+    padding: 210px 30px 0 55px;
+}
+
+.info h1{
+    font-size: 26pt;
+}
+
+.btn{
+    height: 70px;
+    width: 250px;
+
+    margin-top: 10px;
+
+}
+
+.btn span{
+    font-size: 22pt;
+}
+
+.navbar input{
+    max-width: 350px;
+    height: 50px;
+
+    margin-left: 25px;
+    margin-bottom: 15px;
+}
+
+.right{
+    position: absolute;
+    top: 50%;
+    margin-left: 90%;
+    font-size: 45pt;
+    cursor: pointer;
+}
+.left{
+    position: absolute;
+    top: 50%;
+    margin-left: 15px;
+    font-size: 45pt;
+    cursor: pointer;
+}
+
+@media  screen and (min-width: 1024px) {
+    .navbar img{
+        width: 120px;
+    }
+    .info{
+        padding: 150px 600px 0 65px;
+    
+    
+    }
+
+    .btn {
+        width: 150px;
+        height: 50px;
+
+        margin-right: 5px;
+
+        font-size: 12pt;
+    }
+    .btn span{
+        font-size: 14pt;
+    }
+    .navbar input{
+        height: 40px;
+    
+        margin-left: 0;
+        margin-bottom: 0;
+    }
+
+.right{
+    position: absolute;
+    top: 50%;
+    margin-left: 95%;
+    font-size: 45pt;
+    cursor: pointer;
+}
+
+.erro{
+    width: 100vw;
+    height: 100vh;
+    background-color: #111;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+}
