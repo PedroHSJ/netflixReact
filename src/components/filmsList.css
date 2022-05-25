@@ -14,15 +14,14 @@
 
 
 .film img{
-    width: 200px;
-    height: 100%;
-
+    width: 220px;
+    transform: scale(0.95);
     margin: 2px;
 }
 
 .film img:hover{
     cursor: pointer;
-    transform: scale(1.01);
+    transform: scale(1);
     transition: all 0.2s;
 }
 
