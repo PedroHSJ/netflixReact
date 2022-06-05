@@ -5,6 +5,10 @@
 
     overflow-x: hidden;
 }
+.main h2{
+    margin-left: 30px;
+    color: #fff;
+}
 .filmList {
     display: flex;
     flex-direction: row;

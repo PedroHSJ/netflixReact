@@ -32,11 +32,11 @@
 }
 
 
-.info{
+.infoFilmHome{
     padding: 210px 30px 0 55px;
 }
 
-.info h1{
+.infoFilmHome h1{
     font-size: 26pt;
 }
 
@@ -79,7 +79,7 @@
     .navbar img{
         width: 120px;
     }
-    .info{
+    .infoFilmHome{
         padding: 150px 600px 0 65px;
     
     
