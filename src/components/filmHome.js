@@ -171,7 +171,7 @@ export default () => {
                                         to={`/series/${info[count].id}`}
                                     >
                                         <button className="btn btn-light">
-                                            <span>Assistir</span>
+                                            <span>Saiba +</span>
                                         </button>
                                     </Link>
                                     {/* <button className="btn btn-dark">

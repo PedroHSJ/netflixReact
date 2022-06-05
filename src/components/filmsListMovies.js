@@ -18,6 +18,7 @@ const API_KEY = "fa8367b24166839e18a329a3a990a6a3";
 
 export default (props) => {
     const [info, setInfo] = useState([]);
+    //const [data, setData] = useState([])
 
     useEffect(() => {
         axios.get(`${props.url}`).then((resp) => {
@@ -29,6 +30,22 @@ export default (props) => {
             
         });
     }, []);
+
+    {/*
+
+    useEffect(()=>{
+        fetch(`htttp://films.com.br`)
+        .then(resp => resp.json())
+        .then(resp => setData(resp))
+
+    },[])
+
+
+    return(
+        {data.map()}
+    )
+*/}
+
     const productTemplate = (info) => {
         return (
             <div

@@ -15,28 +15,28 @@ function App() {
             <FilmHome />
 
             <FilmsListSeries
-                title="Trending Week"
+                title="Series em alta"
                 url={`${API}/trending/tv/week?language=pt-BR&api_key=${API_KEY}`}
             />
             <FilmsListMovies
-                title="Treding movie week"
+                title="Filmes em alta"
                 url={`${API}/trending/movie/week?api_key=${API_KEY}&language=pt-BR`}
             />
             <FilmsListSeries
-                title="On the Air"
+                title="Últimos lançamentos"
                 url={`${API}/tv/on_the_air?api_key=${API_KEY}&language=pt-BR&`}
             />
             <FilmsListSeries
-                title="For You"
+                title="Feitos para você"
                 url={`${API}/trending/pearson/day?language=pt-BR&api_key=${API_KEY}`}
             />
             <FilmsListSeries
-                title="Popular"
+                title="Series populares"
                 url={`${API}/tv/popular?api_key=${API_KEY}&language=pt-BR`}
             />
 
             <FilmsListSeries
-                title="Trending Day"
+                title="Em alta do dia"
                 url={`${API}/trending/tv/day?language=pt-BR&api_key=${API_KEY}`}
             />
         </div>
