@@ -26,10 +26,10 @@ function App() {
                 title="Últimos lançamentos"
                 url={`${API}/tv/on_the_air?api_key=${API_KEY}&language=pt-BR&`}
             />
-            <FilmsListSeries
+            {/* <FilmsListSeries
                 title="Feitos para você"
                 url={`${API}/trending/pearson/day?language=pt-BR&api_key=${API_KEY}`}
-            />
+            /> */}
             <FilmsListSeries
                 title="Series populares"
                 url={`${API}/tv/popular?api_key=${API_KEY}&language=pt-BR`}

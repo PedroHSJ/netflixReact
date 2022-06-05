@@ -20,6 +20,7 @@ export default () => {
                 setInfo(resp.data);
             });
     }, []);
+    console.log(info)
     return (
         <div>
             <nav className="navbar navbar-expand-sm navbar-dark">
